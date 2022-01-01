@@ -6,7 +6,7 @@ Welcome to visit Yang's website, [click here](https://johnniexdu.github.io/).
 
 
 
-p.s the URL ([https://johnniexdu.github.io/](https://johnniexdu.github.io/)) is terrifying :joy:.
+p.s. it's not a good personal website, for its nobody-could-remember URL address ([https://johnniexdu.github.io/](https://johnniexdu.github.io/)) :cry: 
 
 
 
