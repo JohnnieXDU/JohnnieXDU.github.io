@@ -444,7 +444,6 @@ footer {
     ----- 5. About Styles -----
     ---------------------------
 */
-
 #about {
     padding: 75px 15px;
     border-bottom: 1px solid $border;
@@ -457,10 +456,7 @@ footer {
         color: $text;
         margin: 0;
     }
-
-
 }
-
 .photo{
     float: left;
     width: 20%;
@@ -550,7 +546,7 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
+    // vertical-align: top;
     margin-bottom: 30px;
 }
 

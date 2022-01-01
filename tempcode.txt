@@ -1,0 +1,12 @@
+
+                <div class="col-md-8">
+                    <div class="photo">
+                        <img src="images/YangJiao.png" alt="YangJiao.png" width=128px>
+                    </div>
+
+                    <div class="intro">
+                        <p>
+                            Intro contents.
+                        </p>
+                    </div>
+                </div>
