@@ -44,7 +44,7 @@ Then any changes (in `./scss/style.scss` and `./js/scripts.js`) will be automati
 
 :email: yjiao.xdu@gmail.com (GMail)
 
-Very welcome to contacting me!
+Very welcome to contact me!
 
 
 
