@@ -6,7 +6,7 @@ Visit Yang's website, [click here](JohnnieXDU.github.io).
 
 
 
-Or remember the URL [https://johnniexdu.github.io/](https://johnniexdu.github.io/) if you could. (just a horrible messy address :joy:)
+Or remember this terrifying and messy URL [https://johnniexdu.github.io/](https://johnniexdu.github.io/) if you could. :joy:
 
 
 
