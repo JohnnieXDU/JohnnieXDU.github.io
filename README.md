@@ -14,9 +14,9 @@ Or remember this terrifying and messy URL [https://johnniexdu.github.io/](https:
 
 For windows:
 
-- node.js (v 10.22.0)
-- npm (v 6.14.6)
-- MSVC 2017 v15.0 (MSVC 2019 should be ok)
+- node.js (v10.22.0)
+- npm (v6.14.6)
+- MSVC 2017 v15.0 (MSVC 2019 should also be ok)
 
 
 
