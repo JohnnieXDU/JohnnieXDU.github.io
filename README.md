@@ -4,9 +4,7 @@
 
 Welcome to visit Yang's website, [click here](https://johnniexdu.github.io/). 
 
-
-
-p.s. it's not a good personal website, for its nobody-could-remember URL address ([https://johnniexdu.github.io/](https://johnniexdu.github.io/)) :cry: 
+It has a *~~super-cool~~* **nobody-can-remember** URL address ([https://johnniexdu.github.io/](https://johnniexdu.github.io/)) :cry: 
 
 
 
