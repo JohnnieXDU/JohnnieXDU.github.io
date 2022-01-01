@@ -2,11 +2,11 @@
 
 
 
-Visit Yang's website, [click here](https://johnniexdu.github.io/). 
+Welcome to visit Yang's website, [click here](https://johnniexdu.github.io/). 
 
 
 
-Or remember this terrifying and messy URL [https://johnniexdu.github.io/](https://johnniexdu.github.io/) if you could. :joy:
+p.s the URL ([https://johnniexdu.github.io/](https://johnniexdu.github.io/)) is terrifying :joy:.
 
 
 
@@ -50,7 +50,7 @@ Very welcome to contact me!
 
 ## Thanks 
 
-Ryan Fitzgerald for sharing the source code. Visit the repo, [click here](https://github.com/RyanFitzgerald/devportfolio).
+Thanks Ryan Fitzgerald for sharing the source code [template](https://github.com/RyanFitzgerald/devportfolio).
 
 
 
