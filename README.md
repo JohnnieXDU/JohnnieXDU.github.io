@@ -2,7 +2,7 @@
 
 
 
-Visit Yang's website, [click here](JohnnieXDU.github.io). 
+Visit Yang's website, [click here](https://johnniexdu.github.io/). 
 
 
 
