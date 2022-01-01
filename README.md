@@ -1,4 +1,4 @@
-# JohnnieXDU.github.io - Home
+# JohnnieXDU.github.io - Home :house_with_garden:
 
 
 
@@ -10,7 +10,7 @@ Or remember this terrifying and messy URL [https://johnniexdu.github.io/](https:
 
 
 
-## Set up and Compile
+## Set up and Compile :gear:
 
 For windows:
 
@@ -28,7 +28,7 @@ For windows:
 
 
 
-## Edit and Run
+## Edit and Run :scroll:
 
 ```shell
 >> npm run watch
@@ -40,7 +40,7 @@ Then any changes (in `./scss/style.scss` and `./js/scripts.js`) will be automati
 
 
 
-## Contact
+## Contact :heartpulse:
 
 :email: yjiao.xdu@gmail.com (GMail)
 
