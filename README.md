@@ -50,6 +50,16 @@ Very welcome to contact me!
 
 Thanks Ryan Fitzgerald for sharing the source code [template](https://github.com/RyanFitzgerald/devportfolio).
 
+Besides, some new parts are added.
+
+
+
+#### new parts
+
+- update `gulpfile.js` for automatic web reload
+- add `fancy-log` package for log print
+- update `package.json`
+
 
 
 ## License

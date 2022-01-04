@@ -1,5 +1,7 @@
+// import packages
 var gulp = require('gulp');
 var plumber = require('gulp-plumber');
+var log = require('fancy-log');
 const uglify = require('gulp-uglify');
 const sass = require('gulp-sass');
 const wait = require('gulp-wait');
