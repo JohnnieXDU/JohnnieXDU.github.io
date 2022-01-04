@@ -132,28 +132,50 @@ body {
 }
 
 // create animation
-@keyframes dropHeader {
-  0%   { transform: translateY(-100%); }
-  100% { transform: translateY(0); }
+@keyframes fromLeftSlide {
+    0%   { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
 }
+
+@keyframes fromTopSlide {
+    0% {
+        transform: translateY(-40%);
+        opacity: 0.0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1.0;
+    }
+}
+
+@keyframes fromDownSlide {
+    0% {
+        transform: translateY(30%);
+        opacity: 0.0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1.0;
+    }
+}
+
 
 header {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    text-align: center;
+    text-align: left;
     z-index: 10;
-    animation-name: dropHeader;
-    animation-iteration-count: 1;
+    // animation-name: dropHeader;
+    // animation-iteration-count: 1;
     // animation-timing-function: ease;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-duration: 1.2s;
+    // animation-duration: 0.75s;
 
     ul {
         display: inline-block;
-        background: $background;
-        text-align: center;
+        background: none;
+        text-align:center;
         padding: 10px;
         margin: 0;
         border-bottom-right-radius: 4px;
@@ -162,22 +184,25 @@ header {
 
     li {
         display: inline-block;
+        position: relative;
+         
     }
 
     a {
         display: block;
-        color: $base-color;
-        padding: 10px;
-
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        font-size: 1.0vw;
+        text-decoration: none;
         &:hover {
             color: $base-color-hover;
             text-decoration: none;
-            background: #eee;
+            background: rgba(255, 255, 255, 0.705);
             border-radius: 4px;
         }
 
         &:focus {
-            color: $base-color;
+            color: rgb(255, 255, 255);
             text-decoration: none;
         }
     }
@@ -190,12 +215,36 @@ header {
         position: fixed;
         z-index: 999;
     }
+
+
+}
+
+.left-animation {
+    animation-name: fromLeftSlide;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 0.75s;
+}
+
+.top-animation {
+    animation-name: fromTopSlide;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 0.75s;
+}
+
+.down-animation {
+    animation-name: fromDownSlide;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 0.75s;
 }
 
 #menu {
     &.active {
         display: block;
     }
+    
 }
 
 #mobile-menu-open {
@@ -292,15 +341,15 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
-    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    padding: 8px 25px;
     border: 3px solid #fff;
     border-radius: 30px;
     @include transition();
 
     &:hover {
         color: $base-color;
-        background: #fff;
+        background: rgba(255, 238, 85, 0.795);
         text-decoration: none;
     }
 }
