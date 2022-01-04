@@ -131,13 +131,10 @@ body {
     }
 }
 
+// create animation
 @keyframes dropHeader {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(0); }
 }
 
 header {
@@ -149,8 +146,9 @@ header {
     z-index: 10;
     animation-name: dropHeader;
     animation-iteration-count: 1;
-    animation-timing-function: ease;
-    animation-duration: 0.75s;
+    // animation-timing-function: ease;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 1.2s;
 
     ul {
         display: inline-block;
@@ -425,6 +423,7 @@ footer {
     }
 }
 
+// create animation
 @keyframes pulsate {
     0% {
         transform: scale(1, 1);
