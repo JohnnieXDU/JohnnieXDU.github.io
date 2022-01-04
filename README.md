@@ -26,15 +26,28 @@ For windows:
 
 
 
-## Edit and Run :scroll:
+## Dev :scroll:
 
 ```shell
 >> npm run watch
 ```
 
+While developing, any changes in `index.html` \ `./scss/style.scss`  \  `./js/scripts.js` will be watched.
 
 
-Then any changes (in `./scss/style.scss` and `./js/scripts.js`) will be automatically compiled to .css and saved.
+
+you may get the output: 
+
+```shell
+...
+[16:53:43] Starting server...
+[16:53:43] Server started http://localhost:8080 
+[16:53:43] LiveReload started on port 35729
+[16:53:43] Running server 
+...
+```
+
+Open `http://localhost:8080` in browser for real-time loading.
 
 
 
