@@ -13,7 +13,7 @@ const connect = require('gulp-connect');
 // task: processing html
 gulp.task('html', function() {
     return gulp.src('./index.html')
-        .pipe(gulp.dest('./'))
+        //.pipe(gulp.dest('./'))
         .on('end', function () { log('>> [F5] Reload Web') })
         .pipe(connect.reload());
 });

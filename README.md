@@ -38,14 +38,6 @@ Then any changes (in `./scss/style.scss` and `./js/scripts.js`) will be automati
 
 
 
-## Contact :heartpulse:
-
-:email: yjiao.xdu@gmail.com (GMail)
-
-Very welcome to contact me!
-
-
-
 ## Thanks 
 
 Thanks Ryan Fitzgerald for sharing the source code [template](https://github.com/RyanFitzgerald/devportfolio).
@@ -56,9 +48,19 @@ Besides, some new parts are added.
 
 #### new parts
 
-- update `gulpfile.js` for automatic web reload
+- update `gulpfile.js` for automatic web reloading
+- update `gulpfile.js` for watching `*.html`
 - add `fancy-log` package for log print
+- add `gulp-connect` package for webserver reloading
 - update `package.json`
+
+
+
+## Contact :heartpulse:
+
+:email: yjiao.xdu@gmail.com (GMail)
+
+Very welcome to contact me!
 
 
 
