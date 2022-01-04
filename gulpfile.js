@@ -7,8 +7,29 @@ const sass = require('gulp-sass');
 const wait = require('gulp-wait');
 const babel = require('gulp-babel');;
 const rename = require('gulp-rename');
+const connect = require('gulp-connect');
 
-gulp.task('scripts', function() {
+// ========== Design Tasks ========== //
+// task: processing html
+gulp.task('html', function() {
+    return gulp.src('./index.html')
+        .pipe(gulp.dest('./'))
+        .on('end', function () { log('>> [F5] Reload Web') })
+        .pipe(connect.reload());
+});
+
+// task: processing scss -> css
+gulp.task('css', function () {
+    return gulp.src('./scss/styles.scss')
+        .pipe(wait(250))
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(gulp.dest('./css'))
+        .on('end', function () { log('>> [F5] Reload Web') })
+        .pipe(connect.reload());
+});
+
+// task: processing js
+gulp.task('js', function() {
     return gulp.src('./js/scripts.js')
         .pipe(plumber(plumber({
             errorHandler: function (err) {
@@ -25,17 +46,25 @@ gulp.task('scripts', function() {
             }
         }))
         .pipe(rename({extname: '.min.js'}))
-        .pipe(gulp.dest('./js'));
+        .pipe(gulp.dest('./js'))
+        .on('end', function () { log('>> [F5] Reload Web') })
+        .pipe(connect.reload());
 });
 
-gulp.task('styles', function () {
-    return gulp.src('./scss/styles.scss')
-        .pipe(wait(250))
-        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(gulp.dest('./css'));
+// task: create a webserver
+gulp.task('webserver', function() {
+    connect.server({
+        root: './',
+        livereload: true, // auto-reload
+        // port: 2333 
+    });
 });
 
-gulp.task('watch', function() {
-    gulp.watch('./js/scripts.js', gulp.series('scripts'));
-    gulp.watch('./scss/styles.scss', gulp.series('styles'));
+// ========== Set Gulp-Task ========== //
+gulp.task('watch_files', function() {
+    gulp.watch('./index.html', gulp.series('html'));
+    gulp.watch('./scss/styles.scss', gulp.series('css'));
+    gulp.watch('./js/scripts.js', gulp.series('js'));
 });
+
+gulp.task('watch', gulp.parallel('webserver', 'watch_files'));
