@@ -191,7 +191,6 @@ header {
     li {
         display: inline-block;
         position: relative;
-         
     }
 
     a {
@@ -223,6 +222,21 @@ header {
     }
 
 
+}
+
+.menu-button {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    @include transition();
+
+    &:hover {
+        color: $base-color;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.829);
+        text-decoration: none;
+    }
 }
 
 .left-animation {
@@ -355,7 +369,7 @@ footer {
 
     &:hover {
         color: $base-color;
-        background: #ffcc33d2;
+        background: rgba(255, 197, 23, 0.877);
         text-decoration: none;
     }
 }
@@ -529,11 +543,11 @@ footer {
     
 }
 
-.alignimg {
-    display: inline;
-    justify-content: center;
-    width: 150px;
-}
+// .alignimg {
+//     display: inline;
+//     justify-content: center;
+//     width: 150px;
+// }
 
 .photo{
     float: left;
