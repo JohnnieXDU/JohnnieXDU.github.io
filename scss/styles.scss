@@ -133,8 +133,14 @@ body {
 
 // create animation
 @keyframes fromLeftSlide {
-    0%   { transform: translateX(-100%); }
-    100% { transform: translateX(0); }
+    0% {
+        transform: translateX(-30%);
+        opacity: 0.0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1.0;
+    }
 }
 
 @keyframes fromTopSlide {
@@ -349,7 +355,7 @@ footer {
 
     &:hover {
         color: $base-color;
-        background: rgba(255, 238, 85, 0.795);
+        background: #ffcc33d2;
         text-decoration: none;
     }
 }
@@ -368,6 +374,16 @@ footer {
     font-size: 2em;
     font-weight: 300;
     margin: 0 0 30px 0;
+    
+    color: rgb(255, 0, 43);
+
+    h2 {
+        color: $heading;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
 
     &:after {
         position: absolute;
@@ -498,13 +514,27 @@ footer {
 
     h2 {
         color: $heading;
+        display: flex;
+        justify-content: center;
     }
 
     p {
         color: $text;
+        color: pink;
         margin: 0;
+        display: flex;
+        justify-content: center;
     }
+
+    
 }
+
+.alignimg {
+    display: inline;
+    justify-content: center;
+    width: 150px;
+}
+
 .photo{
     float: left;
     width: 20%;
