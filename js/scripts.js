@@ -100,3 +100,7 @@
 function showCitation(citations) {
     window.prompt("\nCopy Citation:", citations);
 }
+
+function showWarnning(mesg) {
+    alert(mesg);
+}
