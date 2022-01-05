@@ -95,3 +95,8 @@
     });
 
 })(jQuery);
+
+
+function showCitation(citations) {
+    window.prompt("\nCopy Citation:", citations);
+}
