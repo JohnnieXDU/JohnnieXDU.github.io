@@ -66,6 +66,7 @@ Besides, some new parts are added.
 - add `fancy-log` package for log print
 - add `gulp-connect` package for webserver reloading
 - update `package.json`
+- update `/js/script.js` for animation
 
 
 
