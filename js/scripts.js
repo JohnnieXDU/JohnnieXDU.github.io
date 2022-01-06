@@ -31,7 +31,7 @@
 
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, 600);
+        }, 800);
 
         // Hide the menu once clicked if mobile
         if ($('header').hasClass('active')) {
