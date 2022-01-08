@@ -19,7 +19,7 @@ For windows:
 
 
 ```shell
->> cd <your dir>
+>> cd <project dir>
 >> npm clean cache --force
 >> npm install
 ```
@@ -29,6 +29,7 @@ For windows:
 ## Dev :scroll:
 
 ```shell
+>> cd <project dir>
 >> npm run watch
 ```
 
