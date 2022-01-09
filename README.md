@@ -81,4 +81,6 @@ Very welcome to contact me!
 
 ## License
 
-Completely free (MIT)! See [LICENSE.md](LICENSE.md) for more.
+Completely free (MIT)!
+
+See [LICENSE.md](LICENSE.md) for more.
