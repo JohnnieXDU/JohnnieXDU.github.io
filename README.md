@@ -1,4 +1,4 @@
-# 1JohnnieXDU.github.io - Home :house_with_garden:
+# JohnnieXDU.github.io - Home :house_with_garden:
 
 
 
